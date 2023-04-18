@@ -12,3 +12,5 @@ ag church website
 - Who we are/mission/roadmap
 - Where/location
 - Contact/discord/twitter
+
+Day 1: github clone , readme and setup
