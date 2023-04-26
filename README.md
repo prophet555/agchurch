@@ -14,3 +14,4 @@ ag church website
 - Contact/discord/twitter
 
 Day 1: github clone , readme and setup
+Day 2: javascript learning 
