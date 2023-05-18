@@ -1,101 +1,273 @@
- <!-- chat gpt template -->
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>AG Church</title>
-  <link rel="stylesheet" href="stylev2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Bible Blog</title>
+    <style>
+        section{
+            padding: 60px 0;
+        }
+        .icon-purple {
+        color: rgb(160, 73, 160);
+      }
+      
+      .text-purple {
+        color:rgb(160, 73, 160);
+      }
+
+      .img-responsive {
+    width: auto;
+    height: 500px;
+    }
+
+    </style>
 </head>
 <body>
-  <header>
-    <div class="logo">
-        <!-- https://lh3.googleusercontent.com/xROkNDaNiCxTbI3C2VmnrvVyvlahvYGk4tW5mecyqoqeYDGFC_4riKwd5cZmgd1IqyKMR6gzFksCqEk3N3i_tGcCo12_vNvpvnTKlUaKhh7oSgSPG3rtByxo7SRs1M5rcmRQ-AaDbpM=w2400 -->
-        <img src="https://lh3.googleusercontent.com/xROkNDaNiCxTbI3C2VmnrvVyvlahvYGk4tW5mecyqoqeYDGFC_4riKwd5cZmgd1IqyKMR6gzFksCqEk3N3i_tGcCo12_vNvpvnTKlUaKhh7oSgSPG3rtByxo7SRs1M5rcmRQ-AaDbpM=w2400" alt="AG Church Logo">
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#bible-study">Bible Study</a></li>
-        <li><a href="#art">Art</a></li>
-        <li><a href="#mission">Mission</a></li>
-        <li><a href="#financials">Financials</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#projects">Projects</a></li>
-      </ul>
-    </nav>
-  </header>
-  <div class="gallery">
-      <img src="https://lh3.googleusercontent.com/BHzJ3bfdxjMPZuPpcrLFYNW3eIyXjKRdQxtMpLMronJvoVtq9jSjmSpZdUUiQMfLrk6p7SyJ7SlnVp1H0dhLisnv7LgmH3RsjgJZSLic8TwY4XD27Gb6O2AFYtVjI1dMMAh52a9orKo=w2400" alt="Panel 1">
-      <img src="https://lh3.googleusercontent.com/fCXG0X9HgJxGcIOj6CYC7qfE7JXgpCN9FId2v_tCZS9zRk7JQ7SVwBDRG6lGGWcIhzIA35SqzuSL6uJI70I74DTakxlsJtPRPjHXBAh7OwFNc4lLS_LBDX1Xg0pXpfGJm13k4tmKzM8=w2400" alt="Panel 2">
-      <img src="https://lh3.googleusercontent.com/W19MLov5Uw_No1yl2LA4OFUbKgLOCI7gDvYvPuzkNRXZc8z-bj1hn3oU1OeF3U0w_oz6Gzxw54V1OsDiCXjc7sDZICxba5mCqU-UxYEUzgqw5I_NxuVsCLd_5OR6zW5xVhaojhLOPQM=w2400" alt="Panel 3">
-      <img src="https://lh3.googleusercontent.com/CuhRn0oPvUYrV_3oRb67PqxGRQxIs8yA7ZBfTICM1810aJG1DST7pcAdoPgAeMNY7fH40zjzrdRwjglliYGOZmTeDgoGf5ElchbDJKaQgqJpgvC33qB32H6kztbG58HoyBnFpGw-2yg=w2400" alt="Panel 4">
-      <img src="https://lh3.googleusercontent.com/O_PUfU20AM1bgPhe4vuBdIhaVyYiXjEUYueLNLDJjsA4HQGtfg-OZikZkbxWIKkTmK3PiKGAgVo4bkDSK72px_wPfUiWO3BBNwD7MN7Gj_6x-6GZgb-mAVVssvNQzFjgz0a49YzoWWg=w2400" alt="Panel 5">
-      <img src="https://lh3.googleusercontent.com/yaI0BZFePB7PYTRxDVfwENKN6-OgUNVdfYDK885CS4QqK6COSuzdP2Tfn3QeCQLe-tCpyKSTuQqfqs8JgyqAWrsNLv0KOc2Z1pKuLaBTSEdF7Npmfgqak2XVD_vsfUsSw7KENkl6AOE=w2400" alt="Panel 6">
-  </div>
-  <main>
-      <h1>Welcome to AG Church</h1>
-      <p>We are a community of believers who are 
-        passionate about following Jesus Christ. 
-        We believe that the Bible is the inspired word of God, 
-        and we are committed to living out its teachings in our 
-        everyday lives. We offer a variety of ministries and
-         programs for all ages, and we welcome everyone to join 
-         us in our worship and fellowship.</p>
-    <section id="bible-study">
-      <h1>Bible Study</h1>
-      <p>Every Wednesday 8.30AM UTC</p>
-    </section>
-    <section id="art">
-      <h1>Art</h1>
-      <p>We believe that art is a powerful way to express our 
-        faith. We offer a variety of art classes and workshops
-        for all ages and skill levels. 
-        We encourage everyone to use their creativity 
-        to worship God and share the gospel with others.
-        
-        <figure>
-          <img src="https://lh3.googleusercontent.com/EYKUaIE1dNFWu0gDZSW-XOWLbw-7UdSIczl2oe7g629Kp5zpBI26AyscgZaloKl2MyyTGeoE8Reu8lNz1FiMZAHaZuX0msmpUnlwd2mg5sVn9dZx_JRDaxW8Je1PctIy-zb-u7Te2Qo=w2400">
-          <figcaption>Psalms 23 by Johanan</figcaption>
-        </figure>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark pt-5 pb-4 bg-secondary">
+        <div class="container-xxl">
+            <a href="#intro" class="navbar-brand">
+                <!-- Logo Image -->
+                <img src="/assets/AgTransparent.png" width="100" alt="" class="d-inline-block align-middle mr-2">
+                
+                <!-- Logo Text -->
+                <span class="font-weight-bold ms-2 text-purple">
+                    Amazing Grace
+                    <!-- icon  -->
+                    <i class="bi bi-stars icon-purple"></i>
+                </span>
+              </a>
+            <!-- <a href="#intro" class="navbar-brand">
+                <span class="fw-bold navbar-dark ps-5">AG Church</span>
+            </a> -->
 
-        <figure>
-          <img src="https://lh3.googleusercontent.com/WjaCIeRdhn54fbRjYSfKkAi20qieDdkN6fbUgH4ATEtkpD4eGoh3eAWyr9Vgq-SlqnpPs4-cro50bgbAQr9ztD7Kc9OEl7IqC9F5buOlXgHEONtxxJcHhSkKGFdJHRg6LBH50LbCGgM=w2400">
-          <figcaption>Build Your House on the Rock by Israel Hamm</figcaption>
-        </figure>
-        
-        <p><a href="https://collector.sh/mic333sol">NFT 
-        art gallery</a></p>
+            <!-- toggle button for mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Church">Church</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Art">Art</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                </li>
+                
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+
+
+    <!-- quote image and intro -->
+    <section id="intro">
+        <div class="container-fluid h-70">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <h1>
+                        <div class="display-2"><i class="bi bi-shield-lock-fill"></i> He is Our Shield</div>
+                        <div class="display-5 text-muted">Famine?</div>
+                    </h1>
+                    <p class="lead my-4 text-muted">Jesus is our full supply, we are never in need.  Let's give thanks to the aba Father who gives us the power to attain wealth.  Pray for his guidance and wisdom today!</p>
+                    <a href="#amen" class="btn btn-success btn-lg">Amen!</a>
+                </div>
+                <div class="col-md-5 text-center">
+                    <img class="img-fluid" src="/assets/quote.jpg" alt="quotes1">
+                </div>
+            </div>
+        </div>
     </section>
-    <section id="mission">
-      <h1>Mission</h1>
-      <p>We are committed to sharing the gospel with the world. 
-         We believe that everyone 
-         has a part to play in reaching the world for Christ, 
-         and we encourage everyone to get involved in our 
-         mission work.</p>
+
+    <!-- create photo grid of church members-->
+    <section id="Church">
+        <div class="container-lg">
+            <h1>
+                <div class="display-2"><i class="bi bi-bookmark-heart-fill"></i> Jesus is the Head and We are His Body</div>
+            </h1>
+            <p class="lead my-4 text-muted">Worship on Sundays, Bible Study on Wednesday</p>
+            <!-- start Gallery -->
+<div class="row my-5">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+      <img
+        src="assets/worship.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="scenes from worship"
+      />
+  
+      <img
+        src="assets/abigail.jpg"
+        class="img-fluid shadow-1-strong rounded mb-4"
+        alt="abigail vertical"
+      />
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src="assets/eliHG.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Elijah and HG vertical"
+      />
+  
+      <img
+        src="assets/hunterValley.JPG"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="HunterValley conference"
+      />
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src="assets/byunAirport.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Byun Family"
+      />
+  
+      <img
+        src="assets/johsam.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="J and Sam"
+      />
+    </div>
+  </div>
+  <!-- end Gallery -->
+        </div>
     </section>
-    <section id="financials">
-      <h1>Financials</h1>
-      <p><a href="https://docs.google.com/spreadsheets/d/1fQFmtzdQskG7Lo_hjcjYRWEMpBtXh1ehTmdcZgj5w3E/edit?usp=sharing">
-        Spreadsheet Market Values</a>
-      </p>
+
+    <!-- Art Grid -->
+    <section id="Art">
+        <div class="container-lg">
+            <h1>
+                <div class="display-2"><i class="bi bi-palette"></i> Art For the Soul</div>
+            </h1>
+            <p class="lead my-4 text-muted">"And I have filled him with the Spirit of God, with wisdom, understanding, knowledge and all kinds of skills—to make artistic designs for work in gold, silver and bronze, to cut and set stones, to work in wood, and to engage in all kinds of crafts." - Exodus 31:3-5</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <figure>
+                    <img src="assets/psalm23.jpg" class="w-100 shadow-1-strong rounded mb-1 mt-4 img-responsive">
+                    <figcaption class="figure-caption">psalm23 by Johanan</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-6">
+                    <figure>
+                    <img src="assets/rockHousebig.png" class="w-100 shadow-1-strong rounded mb-1 mt-4 img-responsive">
+                    <figcaption class="figure-caption">Build Your House On The Rock by Israel</figcaption>
+                    </figure>   
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                    <figure>
+                    <img src="assets/skyline.jpg" class="w-100 shadow-1-strong rounded mb-1 mt-4 img-responsive">
+                    <figcaption class="figure-caption">Skyline by Vincenzo</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-6">
+                    <figure>
+                    <img src="assets/lunapark.jfif" class="w-100 shadow-1-strong rounded mb-1 mt-4 img-responsive">
+                    <figcaption class="figure-caption">Luna Park by Fuller</figcaption>
+                    </figure>
+                </div>
+              </div>
+        </div>
     </section>
-    <section id="contact">
-      <h1>Contact</h1>
-      <p></p>
+
+    <!-- About -->
+    <section id="About">
+        <div class="container-lg">
+            
+        </div>
     </section>
-    <section id="projects">
-      <h1>Projects</h1>
-      <p>
-        <ul>
-          <li>Building Church Online</li>
-          <li>Raising the next Gen Pastors</li>
-          <li>Raise funding iniatives for ministry</li>
-        </ul>
-      </p>
+
+    <!-- Projects -->
+    <section id="Projects">
+        <div class="container-lg">
+            <h1>
+                <div class="display-2"><i class="bi bi-graph-up-arrow"></i> Projects</div>
+            </h1>
+            <p class="lead my-4 text-muted"> "Now it is required that those who have been given a trust must prove faithful."- 1 Corinthians 4:2</p>
+            <ul>
+                <li>Online church build</li>
+                <li>Asset management</li>
+                <li>Kids ministry</li>
+                <li>Bible scholars</li>
+                <li><a href="https://docs.google.com/spreadsheets/d/1fQFmtzdQskG7Lo_hjcjYRWEMpBtXh1ehTmdcZgj5w3E/edit#gid=0">Treasury</a></li>
+              </ul>
+              
+        </div>
     </section>
-  </main>
-  <footer>
-    <p>&copy; 2023 AG Church. All rights reserved.</p>
-  </footer>
+
+    <!-- Contact Form -->
+    <section id="Contact">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Get in Touch</h2>
+                <p class="lead">Let's Get to know Jesus together..</p>
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <form>
+                        <label for="email" class="form-label">Email address:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-envelope-at-fill"></i>
+                            </span>
+                            <input type="email" class="form-control" id="email" placeholder="e.g yourname@example.com">
+                        </div>
+                        
+                        <label for="name" class="form-label">Name:</label>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="bi bi-person-fill"></i>
+                            </span>
+                            <input type="text" class="form-control" id="name" placeholder="e.g name">
+                        </div>
+                        
+                        <label for="subject" class="form-label">What is your question about?</label>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="bi bi-chat-right-dots-fill"></i>
+                            </span>
+                            <select class="form-select" id="subject">
+                                <option value="membership" selected>Membership</option>
+                                <option value="donations">Donations</option>
+                                <option value="projects">Projects</option>
+                                <option value="others">Others</option>
+                            </select>
+                        </div>
+                        
+                        
+                        <div class="form-floating mb-4 mt-5">
+                            <textarea id="query" class="form-control" style="height:140px"></textarea>
+                            <label for="query">Your Query...</label>
+                        </div>
+                        <div class="mb-4 text-center">
+                            <button type="submit" class="btn btn-secondary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+ 
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
